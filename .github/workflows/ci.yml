@@ -1,0 +1,20 @@
+name: Run on main and and pr branches
+
+on:
+  push:
+    branches:
+      - main
+      - pr/*
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - name: Shell - View environment
+        run:
+          - echo "GITHUB REF: $GITHUB_REF"
+          - echo "GITHUB_REF_NAME: $GITHUB_REF_NAME"
+
