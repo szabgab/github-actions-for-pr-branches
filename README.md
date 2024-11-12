@@ -8,3 +8,4 @@ for contributors to turn on GitHub Actions in their forks.
 
 So in-house developers would use any branchname except ones starting with `pr/` and contirbutors could use a branch name like `pr/SOMETHING`.
 
+See my [list of GitHub Workflow examples](https://code-maven.com/github-actions).
