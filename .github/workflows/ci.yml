@@ -15,6 +15,6 @@ jobs:
     steps:
       - name: Shell - View environment
         run: |
-          - echo "GITHUB REF: $GITHUB_REF"
-          - echo "GITHUB_REF_NAME: $GITHUB_REF_NAME"
+          echo "GITHUB REF: $GITHUB_REF"
+          echo "GITHUB_REF_NAME: $GITHUB_REF_NAME"
 
