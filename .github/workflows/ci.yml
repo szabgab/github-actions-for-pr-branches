@@ -14,7 +14,7 @@ jobs:
     name: Build
     steps:
       - name: Shell - View environment
-        run:
+        run: |
           - echo "GITHUB REF: $GITHUB_REF"
           - echo "GITHUB_REF_NAME: $GITHUB_REF_NAME"
 
