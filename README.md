@@ -1,13 +1,4 @@
-GitHub Workflow that will run on the `main` branch and on all the branches that are called `pr/*`
+# GitHub Workflow for PR Branches
 
-This allows the developers to use any branch-name to either avoiding running the CI jobs (and incurring costs or hitting the parallel limitations)
-or to pick a branch name called `pr/SOMETHING` and making the CI job run.
+For the full list of examples and explanations visit https://git.code-maven.com/
 
-This might be interesting if you want to reduce the use of the CI in your oranization, but would like to make it easy
-for contributors to turn on GitHub Actions in their forks.
-
-So in-house developers would use any branchname except ones starting with `pr/` and contirbutors could use a branch name like `pr/SOMETHING`.
-
-The name `pr/` was picked arbitrarily. You could use any prefix there.
-
-See my [list of GitHub Workflow examples](https://code-maven.com/github-actions).
